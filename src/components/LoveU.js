@@ -1,10 +1,23 @@
 import '../css/LoveU.css';
 import React from 'react';
 import image from '../assets/amor.jpg';
+import ReactPlayer from 'react-player/lazy';
+
 
 function LoveU(){
   return(
+    <>
+    <ReactPlayer
+          url='https://youtu.be/9uWh-TlEQ4k'
+          className='react-player'
+          playing={true}
+          width='0'
+          height='0'
+          volume='0.6'
+          loop={true}
+        />
     <div className="container-fluid">
+      
       <div className='box'>
         💙Nuestras canciones💜
         <br></br>
@@ -22,6 +35,7 @@ function LoveU(){
         </div>
         <img className="container" src={image}/>
     </div>
+    </>
 );
 }
 export default LoveU;
