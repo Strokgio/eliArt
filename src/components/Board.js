@@ -33,7 +33,7 @@ function Board({ imgUrl }) {
 
   const showa=()=>{
     Swal.fire({
-      title: 'Ahora tendras que vencerme una vez más en ahorcados, pero esta vez no seras tu la que este detras de la horca 😱',
+      title: 'Ahora tendras que vencerme una vez más en ahorcados, pero esta vez no seras tu la que este con el cuello dentro de la soga 😱',
       width: 600,
       padding: '1em',
       color: '#fff',

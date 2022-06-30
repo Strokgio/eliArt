@@ -8,7 +8,7 @@ function Principal(){
   function show(){
     
     Swal.fire({
-      title: 'No quiero andar con rodeos, Te quiero 💜. Te esperan tres pruebas para poder ver lo que siento por ti, ¿lista?',
+      title: 'Siempre me venciste en todos los juegos que jugamos. ¿Podras hacerlo una vez más mi amor?💜',
       width: 600,
       padding: '1em',
       color: '#fff',

@@ -3,6 +3,7 @@ import  '../css/Login.css';
 import { useNavigate } from 'react-router-dom';
 import Axios from 'axios';
 import ReactPlayer from 'react-player/lazy';
+import Swal from "sweetalert2";
 
 function Login(){
     let navigate = useNavigate();
@@ -29,6 +30,16 @@ function Login(){
 			password : datos.password,
 		}).then(({ data }) =>{
 			setState({loading:false, error:false})
+			Swal.fire({
+				title: 'You have my whole heart 💙',
+				width: 600,
+				padding: '1em',
+				color: '#fff',
+				background: '#201f20 ',
+			  }).then(respuesta=>{
+				if(respuesta){
+				}
+			  })
 			navigate("/loveu")
 		})
 		.catch(({response}) =>{
@@ -62,13 +73,13 @@ function Login(){
 						        <div className="input-group-prepend">
 							        <div className="input-group-text">💜</div>
 						        </div>
-						        <input type="text"  className="form-control" name="username"  placeholder="Nombre De Mi Hermosa Novia" onChange={changeDatos} />	
+						        <input type="text"  className="form-control" name="username"  placeholder="Te dare una pista: ahorcados" onChange={changeDatos} />	
 					        </div>
 					        <div className="input-group">
 						        <div className="input-group-prepend">
 							        <div className="input-group-text">📅</div>
 						        </div>
-						        <input type="password"  className="form-control" name="password" autoComplete="on" placeholder="La Fecha En La Que Inicio Nuestra Historia" onChange={changeDatos}/>
+						        <input type="password"  className="form-control" name="password" autoComplete="on" placeholder="????????" onChange={changeDatos}/>
 					        </div>
 					        <div className="form-group">
 						        <button  className="btn float-right login_btn" type="submit" onClick={sendDates} >Ingresar</button>
