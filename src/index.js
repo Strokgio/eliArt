@@ -8,10 +8,22 @@ import LoveU from './components/LoveU';
 import Hanged from './components/Hanged';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
+import ReactPlayer from 'react-player'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
   <React.StrictMode>
+    <ReactPlayer
+          url='https://youtu.be/9uWh-TlEQ4k'
+          className='react-player'
+          playing={true}
+          width='0'
+          height='0'
+          volume='0.6'
+          loop={true}
+        />
     <Router>
     <Link to="/"></Link>
     <Link to="/login"></Link>

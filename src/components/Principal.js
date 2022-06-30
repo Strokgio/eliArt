@@ -3,7 +3,16 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Swal from "sweetalert2";
 
+
 function Principal(){
+
+  const size = {
+    width: '100%',
+    height: 80,
+  };
+  const view = 'coverart'; // or 'coverart'
+  const theme = '0'; // or 'white'
+
   let navigate = useNavigate();
   function show(){
 
@@ -26,10 +35,17 @@ function Principal(){
     })
   };
   return(
+    
     <div className="container-fluid">
         <div className='box'>
           You Are My Everything💜
         </div>
+        <div> 
+          
+        </div>
+        <script src="https://www.youtube.com/iframe_api"></script>
+        <script src="https://cdn.rawgit.com/labnol/files/master/yt.js"></script>
+
         <button  className="button" value="" onClick={() => show()}>🖤¿Huyes Conmigo?💜</button>
     </div>
 );
