@@ -14,7 +14,6 @@ function LoveU(){
           width='0'
           height='0'
           volume='0.6'
-          loop={true}
         />
     <div className="container-fluid">
       
