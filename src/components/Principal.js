@@ -3,19 +3,10 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Swal from "sweetalert2";
 
-
 function Principal(){
-
-  const size = {
-    width: '100%',
-    height: 80,
-  };
-  const view = 'coverart'; // or 'coverart'
-  const theme = '0'; // or 'white'
-
   let navigate = useNavigate();
   function show(){
-
+    
     Swal.fire({
       title: 'No quiero andar con rodeos, Te quiero 💜. Te esperan tres pruebas para poder ver lo que siento por ti, ¿lista?',
       width: 600,
@@ -40,8 +31,8 @@ function Principal(){
         <div className='box'>
           You Are My Everything💜
         </div>
+        
         <div> 
-          
         </div>
         <script src="https://www.youtube.com/iframe_api"></script>
         <script src="https://cdn.rawgit.com/labnol/files/master/yt.js"></script>
