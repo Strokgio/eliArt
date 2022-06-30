@@ -1,6 +1,6 @@
 import React from 'react';
 import Board from "./Board";
-import image from '../assets/original.png';
+import image from '../assets/original.jpg';
 import '../css/Puzzle.css';
 
 function Puzzle(){

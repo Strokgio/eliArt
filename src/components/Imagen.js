@@ -9,7 +9,7 @@ class Imagen extends Component {
   }
 
   getNombreImagen(){
-    return "ahorcado/" + this.props.numFallos + ".png";
+    return "ahorcado/" + this.props.numFallos + ".jpg";
   }
 
   render() {
