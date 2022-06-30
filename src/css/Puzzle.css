@@ -6,7 +6,7 @@ code {
   .App {
 	display: grid;
 	place-items: center;
-	height: 100vh;
+	height: 32em;
   }
   h1 {
 	margin: 0;
@@ -28,7 +28,7 @@ code {
     cursor: pointer;
     border: 1px solid #75088e;
     background-color: transparent;
-    min-height: 9vh;
+    min-height: 7vh;
     min-width: 30vh;
     height: auto;
     width: auto;
@@ -70,7 +70,7 @@ code {
 		background-color: transparent;
 		margin: 0 0 25px; 
 		overflow: hidden; 
-		padding: 20px; 
+		padding: 1em; 
 		border-radius: 35px 0px 35px 0px; 
 		-moz-border-radius: 35px 0px 35px 0px; 
 		-webkit-border-radius: 35px 0px 35px 0px; 

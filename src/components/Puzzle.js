@@ -10,7 +10,6 @@ function Puzzle(){
         II/IV/MMXXII
         </div>
         <div className="App">
-          <br></br>
         <div className="box1"> Resuelve el Puzzle Mi Cielo</div>
           <Board imgUrl={image} />
         </div>
