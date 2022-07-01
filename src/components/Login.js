@@ -36,6 +36,12 @@ function Login(){
 				padding: '1em',
 				color: '#fff',
 				background: '#201f20 ',
+				backdrop: `
+        		rgba(0,0,123,0.4)
+        		url("https://media.giphy.com/media/T7LVr4MTblBwJhOl3D/giphy.gif")
+        		left top
+        		no-repeat
+      			`
 			  }).then(respuesta=>{
 				if(respuesta){
 				}

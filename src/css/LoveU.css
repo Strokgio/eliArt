@@ -1,7 +1,9 @@
 img.container {
     width: 100%;
-    max-width: 850px;
+    max-width: 750px;
     margin: 0 auto;
     display: flexbox;
+    position: relative;
     justify-content: center;
+    bottom: -40px;
   }
