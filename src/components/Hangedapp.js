@@ -45,7 +45,7 @@ class Hangedapp extends Component {
   }
 
   getPalabraAAdivinar(){
-    let palabras = [ "PATRAÑAS", "ENAMORADO", "ANDREA" ];
+    let palabras = [ "PATRAÑAS", "ENAMORADO", "HERMOSA", "INVISIBLE" ];
     let numAleatorio = Math.floor(Math.random() * palabras.length);
     let palabra = palabras[numAleatorio];
     return palabra;

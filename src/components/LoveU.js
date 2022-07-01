@@ -13,7 +13,7 @@ function LoveU(){
           playing={true}
           width='0'
           height='0'
-          volume='0.6'
+          volume='1'
         />
     <div className="container-fluid">
       
