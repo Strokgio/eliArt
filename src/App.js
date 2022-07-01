@@ -23,7 +23,7 @@ class App extends Component {
   componentDidMount(){
     
       Swal.fire({
-        title: 'Espero que te guste mi amor 💜. Posdata: Se ve mejor en navegador 🙈',
+        title: 'Espero que te guste mi amor 💜. Posdata: Se ve mejor en Laptop 🙈',
         width: 600,
         padding: '1em',
         color: '#fff',
